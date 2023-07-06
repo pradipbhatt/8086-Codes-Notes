@@ -1,7 +1,8 @@
+; Helps to add the number provided bhy the user 1+3+5 and gives resukt in
 .model small
 .stack 100h
 .data
-    List db 12, 34, 56, 78, 98, 01, 13, 78, 18, 36d
+    List db 1, 3, 5
     Total dw ?
 .code
 Main proc
